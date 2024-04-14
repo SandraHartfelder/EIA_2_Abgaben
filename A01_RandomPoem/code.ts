@@ -14,16 +14,16 @@ namespace poem {
         function getVerse(_subjekt, _prädikat, _objekt) {
                  let verse = "";
 
-                 let randomSubjektIndex = Math.floor(Math.random() * _subjekt.length);
-                 let randomSubject = _subjekt.splice(randomSubjektIndex, 1)[0];
-                 verse += randomSubject + " ";
+                 let randomSub = Math.floor(Math.random() * _subjekt.length);
+                 let randomSubjekt = _subjekt.splice(randomSub, 1)[0];
+                 verse += randomSubjekt + " ";
 
-                 let randomPrädikatIndex = Math.floor(Math.random() * _prädikat.length);
-                 let randomPrädikat = _prädikat.splice(randomPrädikatIndex, 1)[0];
+                 let randomPrä = Math.floor(Math.random() * _prädikat.length);
+                 let randomPrädikat = _prädikat.splice(randomPrä, 1)[0];
                  verse += randomPrädikat + " ";
 
-                 let randomObjektIndex = Math.floor(Math.random() * _objekt.length);
-                 let randomObjekt = _objekt.splice(randomObjektIndex, 1)[0];
+                 let randomOb = Math.floor(Math.random() * _objekt.length);
+                 let randomObjekt = _objekt.splice(randomOb, 1)[0];
                  verse += randomObjekt;
 
                  return verse;

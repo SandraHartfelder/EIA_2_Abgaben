@@ -1,0 +1,38 @@
+header {
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #76cc51, #81d5b2); 
+    margin: 0;
+    padding: 0;
+  }
+
+#tracker {
+    position: fixed;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgray;
+    pointer-events: none; 
+    font-family: Arial, sans-serif;
+}
+
+#div1, #div2 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#customButton {
+    padding: 10px 20px;
+    background-color: lightgray; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
