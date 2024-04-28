@@ -19,6 +19,7 @@ table {
 table td, table th {
     padding: 10px;
     text-align: center;
+    border: 1px solid #ddd; 
 }
 
 table th {
@@ -30,6 +31,14 @@ table th {
     margin: 20px auto;
     padding: 10px 20px;
     background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background-color: #4CAF50; 
     color: white;
     border: none;
     border-radius: 5px;
