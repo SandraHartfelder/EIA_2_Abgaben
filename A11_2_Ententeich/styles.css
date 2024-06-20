@@ -1,0 +1,8 @@
+#myCanvas {
+    display: block;
+    margin: 0 auto; /* Zentriert das Canvas horizontal */
+    border: 1px solid black;
+    background-color: white; /* Hintergrundfarbe des Canvas */
+    width: 800px; /* Breite des Canvas */
+    height: 600px; /* Höhe des Canvas */
+}
